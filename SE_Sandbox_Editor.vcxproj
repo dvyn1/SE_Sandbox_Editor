@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{edcadc5c-cd1d-493f-989c-d1f9075c0dd8}</ProjectGuid>
+    <RootNamespace>SESandboxEditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="myObject.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="systemPositioning.h" />
+    <ClInclude Include="Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\3d Math test Function\3d Math test Function.cpp" />
+    <ClCompile Include="myObject.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="pointMath.cpp" />
+    <ClCompile Include="systemPositioning.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_1313905660_-1537188712_0.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_1313905660_-1537188712_1.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_1874610559_-1592050834_0-481604227027184250.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_546848913_495028540_0.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_85828703_-1224857690_0 - Copy.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_85828703_-1224857690_0.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 00 Sun-12345d2500000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 01 Mercury-12345d45600.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 02 Venus-12345d114000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 03 Earth-12345d120000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 03.Moon-12345d32710.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 04 Mars-12345d63600.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05 Jupiter-12345d1315200.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05....Callisto-12345d45390.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05...Ganymede-12345d49610.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05..Europa-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05.Io-12345d34310.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06 Saturn-12345d1095600.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06.......Iapetus-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06......Titan-12345d48500.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06.....Rhea-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06....Dione-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06...Tethys-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06..Enceladus-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06.Mimas-12345d19000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07 Uranus-12345d477600.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07.....Obreon-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07....Titania-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07...Umbriel-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07..Ariel-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07.Miranda-12345d1000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 08 Neptune-12345d120000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 08.Triton-12345d25000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 09 Pluto-12345d25000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 09.Charon-12345d11000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Blackhole (BalCorp)-12345d2000000.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-117258282096723016.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-121683074944913586.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-125200057228127666.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-77106340001915921.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-91112396258696947.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-92676297726216430.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-94160727146331061.vx2" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Sandbox.sbc" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Sandbox.sbc.bak" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\SANDBOX_0_0_0_.sbs" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\SANDBOX_0_0_0_.sbs.bak" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\SANDBOX_0_0_0_.sbsB5" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\SANDBOX_0_0_0_.sbsB5.bak" />
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Sandbox_config.sbc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\thumb.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

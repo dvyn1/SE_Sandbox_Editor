@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\XMLs">
+      <UniqueIdentifier>{4ebe97d5-ef91-4a87-8fde-0c3e89cabc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPP">
+      <UniqueIdentifier>{581e0dc4-aeb1-4cae-9961-9a9147708620}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="myObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="systemPositioning.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\3d Math test Function\3d Math test Function.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="myObject.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="pointMath.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="systemPositioning.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_85828703_-1224857690_0 - Copy.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_85828703_-1224857690_0.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_546848913_495028540_0.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_1313905660_-1537188712_0.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_1313905660_-1537188712_1.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Asteroid_1874610559_-1592050834_0-481604227027184250.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 00 Sun-12345d2500000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 01 Mercury-12345d45600.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 02 Venus-12345d114000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 03 Earth-12345d120000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 03.Moon-12345d32710.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 04 Mars-12345d63600.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05 Jupiter-12345d1315200.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05....Callisto-12345d45390.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05...Ganymede-12345d49610.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05..Europa-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 05.Io-12345d34310.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06 Saturn-12345d1095600.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06.......Iapetus-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06......Titan-12345d48500.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06.....Rhea-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06....Dione-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06...Tethys-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06..Enceladus-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 06.Mimas-12345d19000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07 Uranus-12345d477600.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07.....Obreon-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07....Titania-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07...Umbriel-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07..Ariel-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 07.Miranda-12345d1000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 08 Neptune-12345d120000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 08.Triton-12345d25000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 09 Pluto-12345d25000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ATA 09.Charon-12345d11000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Blackhole (BalCorp)-12345d2000000.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-77106340001915921.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-91112396258696947.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-92676297726216430.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-94160727146331061.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-117258282096723016.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-121683074944913586.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\ProcAsteroid-0r0-125200057228127666.vx2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Sandbox.sbc">
+      <Filter>Source Files\XMLs</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Sandbox.sbc.bak">
+      <Filter>Source Files\XMLs</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\SANDBOX_0_0_0_.sbs">
+      <Filter>Source Files\XMLs</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\SANDBOX_0_0_0_.sbs.bak">
+      <Filter>Source Files\XMLs</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\SANDBOX_0_0_0_.sbsB5">
+      <Filter>Source Files\XMLs</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\SANDBOX_0_0_0_.sbsB5.bak">
+      <Filter>Source Files\XMLs</Filter>
+    </None>
+    <None Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\Sandbox_config.sbc">
+      <Filter>Source Files\XMLs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\ramal\AppData\Roaming\SpaceEngineers\Saves\76561198099911101\Entangled Space Test Bench\thumb.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
